@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-  schedule:
+  schedule:   
     - cron: "0 0 * * *"
 jobs:
   update-gist:
